@@ -79,3 +79,6 @@ curl -s -X POST http://localhost:3000/profile \
 - Single-profile design; intended as a personal playground
 - Basic search (LIKE) and simple ranking
 - No authentication for reads; Basic auth only for writes
+
+## Resume
+https://drive.google.com/file/d/1cOd8B-9gMq8w9AnjVJTyPejKVQWdaCVF/view?usp=drive_link
