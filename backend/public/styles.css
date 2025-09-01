@@ -1,0 +1,23 @@
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif;color:#111;background:#fafafa}
+.page-header{background:#1f4ed8;color:#fff;padding:16px}
+.app-title{margin:0;font-size:20px}
+.content-wrapper{max-width:960px;margin:24px auto;padding:0 16px;display:grid;grid-template-columns:1fr;gap:20px}
+.section-title{margin:0 0 8px 0;font-size:18px}
+.profile-panel,.search-panel,.query-panel{background:#fff;border:1px solid #e5e7eb;border-radius:8px;padding:16px}
+.profile-details{display:block}
+.identity-row{display:flex;align-items:baseline;gap:12px}
+.name-text{margin:0;font-size:20px}
+.email-text{margin:0;color:#374151}
+.education-text{margin:8px 0;color:#111}
+.links-row{margin:8px 0;display:flex;gap:12px;flex-wrap:wrap}
+.skills-grid{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}
+.skill-chip{background:#eef2ff;color:#1f4ed8;border:1px solid #c7d2fe;border-radius:999px;padding:4px 10px;font-size:12px}
+.items-list{list-style:none;padding:0;margin:8px 0}
+.project-item,.work-item{padding:8px;border-bottom:1px solid #f3f4f6}
+.project-item:last-child,.work-item:last-child{border-bottom:0}
+.text-input{width:100%;max-width:260px;padding:8px 10px;border:1px solid #d1d5db;border-radius:6px}
+.primary-button,.secondary-button{padding:8px 12px;border-radius:6px;border:1px solid transparent;background:#1f4ed8;color:#fff;cursor:pointer}
+.secondary-button{background:#111}
+.muted-line{color:#6b7280}
+.error-text{color:#b91c1c}
+@media (min-width: 768px){.content-wrapper{grid-template-columns:1fr 1fr}}
